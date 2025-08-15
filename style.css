@@ -1,0 +1,373 @@
+
+*{
+    margin:0;
+    font-family:arial;
+    box-sizing:border-box;
+}
+.navbar{
+background-color: #0F1111;
+color:white;
+height:60px;
+display:flex;
+justify-content: space-evenly;
+align-items:center;
+
+
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+   }
+
+.border{
+     border:2px solid transparent;
+}
+
+.logo{
+     height: 50px;
+    width: 100px;
+    object-fit: fill;
+     background-position: center;
+     background-size: cover;
+    background-image: url("amazon_logo.png");
+}
+
+.border:hover{
+    border:1.5px solid white;
+    border-radius: 5px;
+}
+.add1{
+    color: #ccc;
+    font:0.3rem;
+    margin-left: 23px;
+}
+.add2{
+    color:#ffff;
+    font:1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+
+}
+.nav-search{
+  display:flex;
+   width:620px;
+   height:45px;
+padding-top: 3px;
+padding-bottom: 3px;
+margin-left: 18px;
+border-radius: 4px;
+ 
+
+}
+.search-select{
+      text-align: center;
+     background-color: #f3f3f3;
+     width:65px;
+     border:2px;
+     border-top-left-radius: 4px;
+     border-bottom-left-radius: 4px;
+
+
+}
+.search-input{
+  width: 800px;
+  border:2px;
+  font-size: medium;
+   
+}
+.search-icon{
+    display:flex;
+   justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+  background-color: #febd68;
+  color:#0F1111;
+  
+      border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+
+
+  width:50px;
+  border:2px;
+  
+  
+}
+.signin{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+    color:white;
+}
+.sign{
+    font-size:0.7rem;
+
+}
+.account{
+    font-size: 0.85rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.search-select:hover{
+    border:2px solid orange;
+}
+.search-input:hover{
+    border:2px solid orange;
+}
+.search-icon:hover{
+    border:2px solid orange;
+}
+.nav-cart i{
+    font-size:30px;
+}
+.nav-cart{
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+  font-size:0.85rem;
+  font-weight: 700;
+
+}
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.panelops p{
+display:inline;
+margin-left: 25px;
+}
+.panelops{
+    width:75%;
+  font-size: 0.85rem;
+    
+}
+.Electronics{
+font-size: 0.9rem;
+font-weight: 700;
+}
+.herosection {
+  background-image:url("hero_image.jpg");
+  background-size:contain;
+  background-position:center;
+  height: 350px;
+  display:flex;
+   
+    justify-content: center;
+    align-items: flex-end;
+}
+.heromsg{
+    color:black;
+    background-color: white;
+    height:25px;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font:0.85rem;
+    width:75%;
+    margin-bottom: 25px;
+}
+.heromsg a{
+    color:#007185;
+}
+.shopsection{
+    display:flex;
+    flex-wrap: wrap;
+justify-content: space-evenly;
+background-color: #e2e7e6;
+}
+.box{
+width:22.5%;
+border-radius: 4px;
+height:400px;
+
+margin-top: 25px;
+background-color: white;
+
+}
+.image1{
+background-image: url("box2_image.jpg");
+height: 285px;
+padding:22px 0px 15px;
+background-size: cover;
+}
+.boxcontent{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 21px;
+}
+.boxcontent p{
+   color:#007185;
+}
+
+.image2{
+background-image: url("box1_image.jpg");
+height: 280px;
+padding:22px 0px 15px;
+background-size: cover;
+}
+.image3{
+background-image: url("box5_image.jpg");
+height: 285px;
+padding:22px 0px 15px;
+background-size: cover;
+}
+.image4{
+background-image: url("box11_image.jpeg");
+height: 285px;
+padding:22px 0px 15px;
+background-size: cover;
+}
+.image5{
+background-image: url("box12_image.jpeg");
+height: 285px;
+padding:22px 0px 15px;
+background-size: contain;
+}
+.image6{
+background-image: url("box13_image.jpeg");
+height: 285px;
+padding:22px 0px 15px;
+background-size: contain;
+}
+.image7{
+background-image: url("box14_image.jpeg");
+height: 285px;
+padding:22px 0px 15px;
+background-size: contain;
+}
+.image8{
+background-image: url("box19_image.jpeg");
+height: 285px;
+padding:22px 0px 15px;
+background-size: contain;
+
+}
+.image9{
+background-image: url("box18_image.jpeg");
+height: 285px;
+padding:22px 0px 15px;
+background-size: contain;
+}
+.image10{
+background-image: url("box16_image.jpeg");
+height: 285px;
+padding:22px 0px 15px;
+background-size:contain;
+}
+.image11{
+background-image: url("box17_image.jpeg");
+height: 285px;
+padding:22px 0px 15px;
+background-size: contain;
+}
+.image12{
+background-image: url("box15_image.jpeg");
+height: 285px;
+padding:22px 0px 15px;
+background-size: contain;
+}
+.footer1{
+    background-color: #37475a;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+     border:none;
+}
+footer{
+    margin-bottom: 10px;
+   
+}
+.footer2{
+    background-color:#222f3d ;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ul a{
+    display: flex;
+    font-size: 0.75rem;
+    margin-top: 15px;
+
+}
+.ul{
+    display:flex;
+margin-top: 50px;
+font-weight: 1000px;
+font-size: 1rem;
+
+}
+.footer3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 2px solid white;
+    height:70px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.logo{
+   
+     height: 50px;
+    width: 100px;
+     background-size: cover;
+    background-image: url("amazon_logo.png");
+}
+.footer4{
+background-color: #222f3d;
+    color: white;
+    border-top: 2px solid white;
+    height:140px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  text-align: center;
+
+}
+.last{
+   margin-left:270px;
+   text-align: center;
+}
+.last1{
+   text-align: center;
+   margin-right: 440px;
+
+}
+
+.btn{
+color:#007185;
+background:none ;
+outline:none ;
+border:none ;
+cursor: pointer;
+
+}
+.btn::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color:#007185 ;
+   display: block;
+   transition: 0.5 ease-in-out;
+
+}
+.btn:hover::after{
+    content: '';
+    height: 2px;
+    width: 23%;
+    background-color:#007185 ;
+   display: block;
+
+
+}
