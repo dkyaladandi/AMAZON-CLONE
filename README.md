@@ -1,7 +1,3 @@
- 2. Amazon Clone (HTML/CSS)
-
-**File:** `README.md`
-
 # Amazon Homepage Clone
 
 A fully responsive clone of Amazon’s homepage built with **HTML5 and CSS3**.
@@ -19,7 +15,6 @@ A fully responsive clone of Amazon’s homepage built with **HTML5 and CSS3**.
 [View on GitHub Pages](https://dkyaladandi.github.io/amazon-clone)
 
 ## Setup
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/dkyaladandi/amazon-clone.git
-   
+```bash
+git clone https://github.com/dkyaladandi/amazon-clone.git
+
