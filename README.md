@@ -17,7 +17,7 @@ A fully responsive clone of Amazon’s homepage built with **HTML5 and CSS3**.
 ## Setup
 ```bash
 git clone https://github.com/dkyaladandi/amazon-clone.g
-What i learnt:
+## What i learnt:
 Practical use of CSS Flexbox and Grid for page layout.
 
 How to structure a large page for responsiveness and readability.
