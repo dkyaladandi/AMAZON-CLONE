@@ -12,7 +12,7 @@ A fully responsive clone of Amazon’s homepage built with **HTML5 and CSS3**.
 - CSS3 (Flexbox, Grid)
 
 ## Live Demo
-[View on GitHub Pages](https://dkyaladandi.github.io/amazon-clone)
+WhatsApp Video 2025-08-15 in the given files
 
 ## Setup
 ```bash
